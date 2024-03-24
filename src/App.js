@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter, Route, Routes,Outlet} from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import InvestorsTable from './components/InvestorsTable'; 
 import Investor from './components/Investor';
 function App() {
