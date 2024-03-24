@@ -42,7 +42,7 @@ return(
 <Link to={"/"} className='float-start'>Home Page</Link>
 <label htmlFor="AssetClasses" className='table-primary'>AssetClasses: </label>
 
-<select name="AssetClasses" id="AssetClasses" onChange={handleSelectChange}>
+<select name="AssetClasses" id="AssetClasses" onChange={handleSelectChange} selected={asset}>
   <option value="PD">PD(Private Debt)</option>
   <option value="RE"> RE(Real Estate)</option>
   <option value="INF">INF(Infrastructure)</option>
